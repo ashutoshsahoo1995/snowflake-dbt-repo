@@ -1,0 +1,1 @@
+select * from MANAGE_DB1.EXTERNAL_STAGE.ORDERS
