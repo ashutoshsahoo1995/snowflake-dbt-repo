@@ -1,0 +1,15 @@
+sources:
+  - name: "Orders_Source"
+    database: MANAGE_DB1
+    schema: EXTERNAL_STAGE
+    tables:
+      - name: ORDERS
+
+models:
+  - name: 'orders_dbt'
+    config:
+      materialized: 'view'
+  - name: 'orders_clothing'
+    config:
+      materialized: 'view'
+   
