@@ -1,0 +1,1 @@
+select * from {{source("Orders_Source","ORDERS")}}
