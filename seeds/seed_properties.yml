@@ -1,0 +1,7 @@
+seeds:
+  - name: "orders_snowflake_copy"
+    config:
+      full_refresh: true
+      column_types:
+        AMOUNT: VARCHAR(20)
+        QUANTITY: VARCHAR(20)

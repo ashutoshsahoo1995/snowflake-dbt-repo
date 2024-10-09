@@ -4,7 +4,7 @@ sources:
     schema: EXTERNAL_STAGE
     tables:
       - name: ORDERS
-
+      - name: CITY
 models:
   - name: 'orders_dbt'
     config:
